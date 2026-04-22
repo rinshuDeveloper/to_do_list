@@ -50,7 +50,7 @@ Tasks are stored in the browser using localStorage in this format:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/todo-app.git
+  [ git clone https://github.com/rinshuDeveloper/todo-app.git](https://github.com/rinshuDeveloper/to_do_list.git)
    ```
 
 2. Open the project folder
@@ -61,6 +61,9 @@ Tasks are stored in the browser using localStorage in this format:
 
 <img width="725" height="602" alt="todo_screenshot" src="https://github.com/user-attachments/assets/1253f63a-a817-4b16-9376-d7b65121e71c" />
 
+## 🌍 Live Demo
+
+https://rinshudeveloper.github.io/to_do_list/
 
 ## ⚠️ Limitations
 
