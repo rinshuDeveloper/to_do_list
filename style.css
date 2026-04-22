@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-body {
+    width: 420px;
+    min-height: 300px;
+    background: greenyellow;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#title-Text {
+    font-size: 2.8rem;
+    margin: 0 0 20px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+#taskInput {
+    padding: 12px;
+    width: 240px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    outline: none;
+}
+
+.addBtn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.addBtn:hover {
+    background: #218838;
+}
+
+ul#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 8px;
+}
+
+li span {
+    flex: 1;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+.deleteBtn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.deleteBtn:hover {
+    background: #c82333;
+}
+
+li::before {
+    content: "•";
+    margin-right: 10px;
+    color: #333;
+    font-size: 1.4rem;
+}
